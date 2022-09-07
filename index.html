@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@700&display=swap');
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.neon-text {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.nowrap {
+  white-space: nowrap ;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Text Blocks</h2>
+<p>How to place text blocks over an image:</p>
+
+<div class="container">
+  <div class="thumbnail">
+  <img src="./alt-bg.jpg" alt="Nature" style="width:100%;">
+  <div class="text-block">
+    <p class="neon-text">
+      <span class="nowrap">
+        Being naked is the #1  most sustainable option. We're #2
+      </span>
+     </p>
+  </div>
+</div>
+</div>
+
+</body>
+</html> 
